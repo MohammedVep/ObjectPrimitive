@@ -7,5 +7,13 @@ public class Main {
          person.age = 28;
          System.out.println("Person's name is: " + person.name);
          System.out.println("Person's age is: " + person.age);
+         updatePerson(person);
+         System.out.println("Person's name is: " + person.name);
+         System.out.println("Person's age is: " + person.age);
+    }
+
+    public static void updatePerson(Person p){
+        p.name = "Aue";
+        p.age = 33;
     }
 }
